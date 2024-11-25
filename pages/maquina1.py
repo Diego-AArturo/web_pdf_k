@@ -16,4 +16,4 @@ with st.container(border=True):
     with st.container():
         st.write("**Acceso informacion :**")
         with st.container(border=True):
-            st.page_link("pages\optionspage.py", label='Ir a recursos', use_container_width=True)
+            st.page_link("pages/optionspage.py", label='Ir a recursos', use_container_width=True)

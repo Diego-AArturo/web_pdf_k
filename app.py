@@ -17,7 +17,9 @@ def main():
         with st.container():
             st.write("**Acceso informacion :**")
             with st.container(border=True):
-                st.page_link("pages\maquina1.py", label='Ir a recursos', use_container_width=True)
+                st.page_link("pages/maquina1.py", label='Ir a recursos', use_container_width=True)
+
+            
 
     
             
